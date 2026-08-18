@@ -1,0 +1,21 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "origin-neon-branches",
+      "dependencies": {
+        "@neon/config": "^1.0.0",
+      },
+    },
+  },
+  "packages": {
+    "@neon/config": ["@neon/config@1.0.1", "https://registry.npmjs.org/@neon/config/-/config-1.0.1.tgz", { "dependencies": { "@neon/sdk": "2.1.0", "jiti": "^2.7.0", "zod": "^4.4.3" } }, "sha512-yQhCTbTmpzu4lwChyZSa6Mh923SU+EmVo/PDHCdweqY1ZxpRv5+Xx344yG4m5WTLQOMq5FXfF72NChcFV5EXCA=="],
+
+    "@neon/sdk": ["@neon/sdk@2.1.0", "https://registry.npmjs.org/@neon/sdk/-/sdk-2.1.0.tgz", {}, "sha512-TBTDbDTjgW9ygh+qAlOMkc35/ITBJAV1IQTR7vstix7xMdxgb45qmmYPVoB3Kdbtx8swf+49y3UzqVwHoHdW7g=="],
+
+    "jiti": ["jiti@2.7.0", "https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz", { "bin": { "jiti": "lib/jiti-cli.mjs" } }, "sha512-AC/7JofJvZGrrneWNaEnJeOLUx+JlGt7tNa0wZiRPT4MY1wmfKjt2+6O2p2uz2+skll8OZZmJMNqeke7kKbNgQ=="],
+
+    "zod": ["zod@4.4.3", "https://registry.npmjs.org/zod/-/zod-4.4.3.tgz", {}, "sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ=="],
+  }
+}
